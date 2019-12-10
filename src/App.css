@@ -2,15 +2,14 @@
     background-color: #c00025;
     width: 100%;
     margin: 0 auto;
-    max-width: 550px;
+    max-width: 450px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 25px;
 }
 .display {
-    margin-top: 25px;
     height: 100px;
-    width: 450px;
+    width: 410px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -20,4 +19,56 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin: 20px 0;
   }
+
+.number-button, 
+.special-button,
+.operator-button {
+    color: white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-size: 2rem;
+    
+}
+
+.number-button {
+    background: #113C78;
+    margin: 5px 15px;
+}
+
+.special-button {
+    background: #2061B0;
+    margin: 5px 10px;
+}
+
+.operator-button {
+    background: #3CB5E5;
+    
+
+}
+
+.all-specials {
+    border: 2px solid green;
+    width: 70%;
+}
+.all-numbers {
+    border: 2px solid green;
+    
+    width: 70%;
+    
+}
+.all-ops {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.all-buttons {
+    border: 2px solid blue;
+    
+    width: 450px;
+    margin: 0 auto;
+    
+}
