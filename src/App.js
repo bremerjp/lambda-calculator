@@ -23,9 +23,10 @@ function App() {
       <div className="App">
           <Display />
           <div className="all-buttons">
+          <div className="all-ops"><Operators /></div>
             <div className="all-specials"><Specials /></div>
             <div className="all-numbers"><Numbers /></div>
-            <div className="all-ops"><Operators /></div>
+            
           </div>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
